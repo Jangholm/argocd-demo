@@ -4,4 +4,4 @@ bases:
   - ../kustomize-demo
 images:
   - name: gcr.ip/nep-mb-dev-sandbox/flask-python-app
-    newTag: 210127-a856869
+    newTag: 210131-fcc995c
