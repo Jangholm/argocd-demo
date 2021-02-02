@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: gcr.io/nep-mb-dev-sandbox/flask-python-app
+      - image: gcr.io/nep-mb-dev-sandbox/flask-python-app:210131-f1d1deb
         name: nginx
