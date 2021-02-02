@@ -1,1 +1,7 @@
-
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+bases:
+  - ../kustomize-demo
+images:
+  - name: gcr.ip/nep-mb-dev-sandbox/flask-python-app
+    newTag: 210131-fcc995c
